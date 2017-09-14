@@ -14,4 +14,5 @@ Gem::Specification.new do |spec|
   end
 
   spec.files = ["lib/wsserver.rb","lib/wsserver/websocket_connection.rb","lib/wsserver/websocket_server.rb"]
+  spec.add_development_dependency "rake", "~> 12.0"
 end
